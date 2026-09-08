@@ -216,7 +216,7 @@ The Agriculture module focuses on environmental information relevant to agricult
 
 ## 📊 Environmental Analysis
 
-![GeoPulse Analysis](screenshots/analysis.png)
+![GeoPulse Analysis](screenshots/Environmental_analysis.png)
 
 The Analysis module provides environmental indicators and analytical information for understanding selected locations.
 
