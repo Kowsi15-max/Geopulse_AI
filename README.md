@@ -2,147 +2,212 @@
 
 ## Intelligent Environmental Monitoring & Decision Support Platform
 
-GeoPulse AI is a smart environmental monitoring platform that brings geographical visualization, environmental indicators, agriculture insights, analysis, forecasting, alerts, and emergency information together in one unified dashboard.
+GeoPulse AI is an intelligent environmental monitoring platform designed to bring geographical exploration, environmental analysis, agriculture insights, forecasts, alerts, health information, emergency support, and reports together in a unified dashboard.
 
-The platform is designed to help users understand environmental conditions for a selected location through an interactive and easy-to-use interface.
-
----
-
-## 🎯 Problem Statement
-
-Environmental information is often distributed across multiple platforms and data sources.
-
-Users may need to separately check:
-
-- Temperature
-- Humidity
-- Rainfall
-- Air Quality
-- Vegetation conditions
-- Soil conditions
-- Weather forecasts
-- Environmental alerts
-- Geographical information
-
-This makes it difficult to obtain a clear understanding of the environmental condition of a particular location.
-
-### Our Goal
-
-GeoPulse AI aims to provide a centralized platform where users can explore environmental conditions, analyze geographical information, monitor agricultural factors, and access important environmental alerts from a single dashboard.
+The platform provides users with an interactive way to explore environmental conditions and understand location-based information through a simple and intuitive interface.
 
 ---
 
-## 💡 Our Solution
+# 🎯 Problem Statement
 
-GeoPulse AI provides a map-centered environmental monitoring experience.
+Environmental information is often scattered across different platforms and data sources.
 
-A user can select or search for a location and explore different environmental aspects through dedicated modules.
-
-The platform provides:
-
-- 🗺️ Interactive geographical visualization
-- 🛰️ Satellite map interface
-- 🌱 Agriculture monitoring
-- 📊 Environmental analysis
-- 🌿 Vegetation and canopy analysis
-- 🌦️ Forecast information
-- 🚨 Environmental alerts
-- 🆘 Emergency mode
-- 📍 Saved locations
-- 📑 Environmental reports
-- ⚙️ Application settings
-
-The modular architecture also allows future environmental datasets and machine learning models to be integrated into the platform.
-
----
-
-# ✨ Key Features
-
-## 🗺️ Interactive Satellite Map
-
-GeoPulse AI provides an interactive map interface for exploring geographical locations.
-
-Users can:
-
-- Search for locations
-- Navigate across geographical areas
-- Explore satellite-based map visualization
-- Analyze selected locations
-- Access environmental information associated with locations
-
----
-
-## 🌱 Agriculture Mode
-
-The Agriculture module focuses on environmental factors that are important for agricultural monitoring.
-
-It provides a dedicated space for exploring:
-
-- Vegetation conditions
-- Climate conditions
-- Soil-related information
-- Crop growth environment
-- Environmental changes
-
-This module can be extended in the future with precision agriculture and crop-monitoring models.
-
----
-
-## 📊 Environmental Analysis
-
-The Analysis module provides a centralized interface for understanding environmental indicators.
-
-The platform can be extended to work with indicators such as:
+Users may need to separately monitor:
 
 - 🌡️ Temperature
 - 💧 Humidity
 - 🌧️ Rainfall
 - 🌫️ Air Quality
-- 🌿 Vegetation Index
-- 🌱 Soil Conditions
-- 🌍 Climate Indicators
+- 🌱 Vegetation conditions
+- 🌿 Environmental changes
+- 🌦️ Forecast information
+- 🚨 Environmental alerts
+- 🗺️ Geographical information
 
-The objective is to convert environmental information into a form that users can understand easily.
+This makes it difficult to quickly understand the environmental condition of a particular location.
+
+## Our Goal
+
+GeoPulse AI aims to provide a centralized platform where users can explore geographical information, analyze environmental conditions, monitor agricultural factors, view forecasts, access health-related insights, and receive important environmental alerts from one dashboard.
 
 ---
 
-## 🌿 Vegetation & Canopy Monitoring
+# 💡 Our Solution
 
-Vegetation health is an important environmental indicator.
+GeoPulse AI combines an interactive geographical interface with environmental monitoring and analysis modules.
 
-GeoPulse AI provides dedicated vegetation-related interfaces that can be extended with satellite-derived vegetation indices such as NDVI.
+Users can search for or explore a location and access different environmental insights through the platform.
 
-Potential applications include:
+### GeoPulse provides:
 
-- Vegetation health monitoring
+- 🏠 Dashboard
+- 🗺️ Explore Map
+- 🌱 Farming & Crops
+- ❤️ Health Advisor
+- 📊 Weather Analysis
+- 🌦️ Weekly Forecast
+- 🚨 Weather Alerts
+- 🤖 AI Assistant
+- 📄 Download Reports
+- ⭐ Saved Places
+- ⚙️ Settings
+- 🆘 Emergency Mode
+
+The modular architecture also provides a foundation for integrating additional environmental datasets and machine learning capabilities.
+
+---
+
+# ✨ Key Features
+
+## 🏠 Dashboard
+
+The Dashboard provides an overview of GeoPulse and gives users quick access to the major environmental monitoring features.
+
+It acts as the central entry point for exploring environmental information.
+
+---
+
+## 🗺️ Explore Map
+
+The Explore Map provides an interactive geographical interface for exploring locations and environmental information.
+
+### Features
+
+- Location exploration
+- Interactive geographical visualization
+- Satellite map interface
+- Location-based environmental information
+- Map navigation
+- Environmental monitoring
+
+### Explore Map
+
+![GeoPulse Explore Map](Screenshot/Exploremap.png)
+
+---
+
+## 🌱 Farming & Crops
+
+The Farming & Crops module focuses on environmental information relevant to agriculture.
+
+It provides a dedicated interface for exploring factors that can influence agricultural conditions.
+
+### Applications
+
 - Crop monitoring
-- Vegetation stress analysis
-- Deforestation monitoring
-- Land-use analysis
-- Environmental change detection
+- Vegetation monitoring
+- Environmental condition analysis
+- Agricultural planning
+- Future precision agriculture integration
+
+### Agriculture Dashboard
+
+![GeoPulse Agriculture Analysis](Screenshot/Agricultureanalysis.png)
 
 ---
 
-## 🌦️ Forecast
+## ❤️ Health Advisor
 
-The Forecast module provides a dedicated interface for viewing environmental and weather-related information.
+The Health Advisor module provides environmental health-related information based on environmental conditions.
 
-Forecast information can help users understand upcoming conditions and make better decisions for agriculture and environmental planning.
+It provides a foundation for helping users understand how environmental factors may affect everyday health and outdoor activities.
+
+### Possible Applications
+
+- Air-quality awareness
+- Heat-related conditions
+- Weather-related health information
+- Environmental exposure awareness
+
+### Health Advisor
+
+![GeoPulse Health Advisor](Screenshot/Healthcare.png)
 
 ---
 
-## 🚨 Environmental Alerts
+## 📊 Weather Analysis
 
-The Alerts module provides a centralized location for important environmental warnings.
+The Weather Analysis module provides visual environmental information through interactive charts.
 
-Possible alert categories include:
+The interface can display information such as:
 
-- Extreme weather conditions
+- 🌡️ Temperature
+- 🌧️ Precipitation
+- 🌫️ Atmospheric conditions
+- 📈 Environmental trends
+
+### Environmental Analysis Dashboard
+
+![GeoPulse Environmental Analysis](Screenshot/Environmental_analysis.png)
+
+The analysis dashboard helps users understand environmental patterns through visual representations and data-driven insights.
+
+---
+
+## 🌦️ Weekly Forecast
+
+The Weekly Forecast module provides a dedicated interface for viewing upcoming weather and environmental conditions.
+
+Forecast information can help users plan agricultural activities and understand expected environmental conditions.
+
+---
+
+## 🚨 Weather Alerts
+
+The Weather Alerts module provides a centralized location for important environmental warnings.
+
+### Possible Alert Categories
+
+- Extreme weather
+- Heavy rainfall
+- Temperature-related risks
+- Environmental hazards
 - Air-quality concerns
-- Environmental degradation
-- Vegetation stress
-- Deforestation-related events
-- Other location-based environmental risks
+- Location-based warnings
+
+---
+
+## 🤖 AI Assistant
+
+The AI Assistant provides an interface for intelligent interaction with the GeoPulse platform.
+
+It provides a foundation for future integration of AI-powered environmental assistance, analysis, recommendations, and natural-language interaction.
+
+---
+
+## 📄 Download Reports
+
+The Reports feature provides users with access to environmental analysis information in a structured format.
+
+Future versions can support:
+
+- Environmental reports
+- Historical analysis
+- Location comparisons
+- Trend summaries
+- Downloadable reports
+
+---
+
+## ⭐ Saved Places
+
+Users can save important locations for quick access later.
+
+This can be useful for:
+
+- Farms
+- Research areas
+- Monitoring locations
+- Frequently visited places
+- Environmental observation zones
+
+---
+
+## ⚙️ Settings
+
+The Settings module provides application configuration and user preference options.
+
+It gives users a centralized place to manage their GeoPulse experience.
 
 ---
 
@@ -150,109 +215,73 @@ Possible alert categories include:
 
 Emergency Mode is designed to provide quick access to important information during environmental or emergency situations.
 
-The module provides a foundation for future integration with:
+### Emergency Mode
 
-- Disaster alerts
-- Emergency locations
-- Risk information
-- Emergency response resources
-- Location-based warnings
+![GeoPulse Emergency Mode](Screenshot/Emergencymode.png)
 
----
-
-## 📍 Saved Locations
-
-Users can save important geographical locations for quick access later.
-
-Saved locations can be useful for:
-
-- Farms
-- Research areas
-- Monitoring zones
-- Communities
-- Frequently monitored locations
-
----
-
-## 📑 Reports
-
-The Reports module provides a structured interface for environmental information and analysis results.
-
-Future versions can support:
-
-- Historical environmental reports
-- Location comparisons
-- Environmental trends
-- Generated reports
-- Downloadable reports
+The feature provides a foundation for future integration with emergency alerts, environmental risks, disaster information, and location-based response resources.
 
 ---
 
 # 🖥️ Application Screenshots
 
-## 🏠 Home Dashboard
+## 🗺️ Explore Map
 
-![GeoPulse Home Dashboard](screenshots/home.png)
-
-The GeoPulse home dashboard provides an overview of the platform and quick access to major environmental monitoring modules.
+![GeoPulse Explore Map](Screenshot/Exploremap.png)
 
 ---
 
-## 🗺️ Environmental Map
+## 🌱 Agriculture
 
-![GeoPulse Environmental Map](screenshots/map.png)
-
-The interactive map provides geographical visualization and location-based environmental exploration.
-
----
-
-## 🌱 Agriculture Dashboard
-
-![GeoPulse Agriculture](screenshots/agriculture.png)
-
-The Agriculture module focuses on environmental information relevant to agricultural monitoring.
+![GeoPulse Agriculture](Screenshot/Agricultureanalysis.png)
 
 ---
 
 ## 📊 Environmental Analysis
 
-![GeoPulse Analysis](screenshots/Environmental_analysis.png)
-
-The Analysis module provides environmental indicators and analytical information for understanding selected locations.
+![GeoPulse Environmental Analysis](Screenshot/Environmental_analysis.png)
 
 ---
 
-# 🏗️ System Architecture
+## ❤️ Health Advisor
+
+![GeoPulse Health Advisor](Screenshot/Healthcare.png)
+
+---
+
+## 🆘 Emergency Mode
+
+![GeoPulse Emergency Mode](Screenshot/Emergencymode.png)
+
+---
+
+# 🧭 Platform Navigation
+
+GeoPulse AI is organized into multiple modules to provide a complete environmental monitoring experience.
 
 ```text
-                         ┌─────────────────────┐
-                         │        USER         │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │   GeoPulse AI Web   │
-                         │      Dashboard      │
-                         └──────────┬──────────┘
-                                    │
-              ┌─────────────────────┼─────────────────────┐
-              │                     │                     │
-              ▼                     ▼                     ▼
-       ┌─────────────┐      ┌─────────────┐      ┌─────────────┐
-       │ Satellite   │      │ Environmental│      │ Agriculture │
-       │ Map         │      │ Analysis     │      │ Monitoring  │
-       └─────────────┘      └─────────────┘      └─────────────┘
-              │                     │                     │
-              └─────────────────────┼─────────────────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │   Backend Services  │
-                         │      server.ts      │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │ Environmental Data │
-                         │ & External Services │
-                         └─────────────────────┘
+GeoPulse AI
+│
+├── 🏠 Dashboard
+│
+├── 🗺️ Explore Map
+│
+├── 🌱 Farming & Crops
+│
+├── ❤️ Health Advisor
+│
+├── 📊 Weather Analysis
+│
+├── 🌦️ Weekly Forecast
+│
+├── 🚨 Weather Alerts
+│
+├── 🤖 AI Assistant
+│
+├── 📄 Download Reports
+│
+├── ⭐ Saved Places
+│
+├── ⚙️ Settings
+│
+└── 🆘 Emergency Mode
