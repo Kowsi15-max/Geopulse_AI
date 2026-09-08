@@ -239,7 +239,15 @@ The feature provides a foundation for future integration with emergency alerts, 
 
 ## 📊 Environmental Analysis
 
+### Analysis View 1
+
 ![GeoPulse Environmental Analysis](Screenshot/Environmental_analysis.png)
+
+### Analysis View 2
+
+![GeoPulse Environmental Analysis - Detailed View](Screenshot/Environmental_analysis(1).png)
+
+The Analysis module provides visual environmental indicators and analytical information for understanding selected locations.
 
 ---
 
