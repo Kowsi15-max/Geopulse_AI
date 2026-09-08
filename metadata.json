@@ -1,0 +1,6 @@
+{
+  "name": "GeoPulse_AI",
+  "description": "A premium climatology, environmental telemetry, and advanced agro-meteorological forecasting suite with an interactive mapping workspace, real-time AI decision assistance, and instant crisis response.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
